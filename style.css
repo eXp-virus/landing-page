@@ -34,6 +34,7 @@ body {
     display: flex;
     /* outline: 1px solid red; */
     margin-bottom: 50px;
+    gap: 16px;
 }
 
 .main_text {
@@ -50,16 +51,51 @@ body {
 
 .section1 button {
     background-color: #3882F6;
+    border: #3882F6;
     border-radius: 6px;
-    padding: 2px 12px;
+    padding: 8px 16px;
     color: white;
     font-weight: bold;
     cursor: pointer;
+    margin-top: 8px;
 }
 
 .img {
     width: 450px;
-    height: 150px;
+    height: 100;
     outline: 1px solid orange;
     background-color: silver;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.info-header {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 48px;
+}
+
+.containers {
+    display: flex;
+    gap: 32px;
+}
+
+.div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(0, 149, 255);
+    border-radius: 8px;
+}
+
+.containers span {
+    display: inline-block;
+    width: 100px;
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.764);
 }
